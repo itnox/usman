@@ -1,0 +1,76 @@
+.post-date{
+	background: #f4f4f4;
+	padding: 4px;
+	margin: 3px 0;
+	display: block;
+}
+
+.post-thumb{
+	width: 100%;
+}
+
+.pagination-links{
+	margin: 30px 0;
+}
+
+.pagination-links strong{
+	padding: 8px 13px;
+	margin: 5px;
+	background: #f4f4f4;
+	border: 1px #ccc solid;
+}
+
+a.pagination-link{
+	padding: 8px 13px;
+	margin: 5px;
+	background: #f4f4f4;
+	border: 1px #ccc solid;
+}
+
+.cat-delete {
+	display: inline;
+}
+
+body {
+	background: #d3d3d3;
+}
+
+.custom-bg {
+	background: #FFFFFF;
+}
+
+.top {
+	margin-top: 200px; 
+}
+
+.left {
+	margin-left: 150px;
+	position: relative;
+	z-index: 2;
+	box-shadow: 0 8px 16px -6px black; 
+}
+
+.brand-custom {
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
